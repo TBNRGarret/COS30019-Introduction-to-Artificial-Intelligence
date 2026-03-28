@@ -1,0 +1,289 @@
+KET QUA TEST ASSIGNMENT 2
+---- test10_complex.txt | dfs ---- 
+Filename: cases\test10_complex.txt Method: dfs
+Goal: 11 Nodes: 8
+Path: 1 2 5 9 11
+ 
+---- test1_heuristic_misleading.txt | dfs ---- 
+Filename: cases\test1_heuristic_misleading.txt Method: dfs
+Goal: 10 Nodes: 8
+Path: 1 2 4 7 10
+ 
+---- test2_equal_cost.txt | dfs ---- 
+Filename: cases\test2_equal_cost.txt Method: dfs
+Goal: 4 Nodes: 4
+Path: 1 2 4
+ 
+---- test3_cycle_trap.txt | dfs ---- 
+Filename: cases\test3_cycle_trap.txt Method: dfs
+Goal: 4 Nodes: 4
+Path: 1 2 3 4
+ 
+---- test4_multiplegoals.txt | dfs ---- 
+Filename: cases\test4_multiplegoals.txt Method: dfs
+Goal: 5 Nodes: 7
+Path: 2 1 3 5
+ 
+---- test5_start_equal_goal.txt | dfs ---- 
+Filename: cases\test5_start_equal_goal.txt Method: dfs
+Goal: 3 Nodes: 1
+Path: 3
+ 
+---- test6_parser_stress.txt | dfs ---- 
+Filename: cases\test6_parser_stress.txt Method: dfs
+Goal: 3 Nodes: 3
+Path: 1 2 3
+ 
+---- test7_no_solution.txt | dfs ---- 
+cases\test7_no_solution.txt dfs
+No solution found
+ 
+---- test8_diff.txt | dfs ---- 
+Filename: cases\test8_diff.txt Method: dfs
+Goal: 13 Nodes: 10
+Path: 1 2 4 8 12 13
+ 
+---- test9_directed_graph_symmetric.txt | dfs ---- 
+cases\test9_directed_graph_symmetric.txt dfs
+No solution found
+ 
+---- test10_complex.txt | bfs ---- 
+Filename: cases\test10_complex.txt Method: bfs
+Goal: 11 Nodes: 22
+Path: 1 2 5 9 11
+ 
+---- test1_heuristic_misleading.txt | bfs ---- 
+Filename: cases\test1_heuristic_misleading.txt Method: bfs
+Goal: 10 Nodes: 12
+Path: 1 2 4 7 10
+ 
+---- test2_equal_cost.txt | bfs ---- 
+Filename: cases\test2_equal_cost.txt Method: bfs
+Goal: 4 Nodes: 5
+Path: 1 2 4
+ 
+---- test3_cycle_trap.txt | bfs ---- 
+Filename: cases\test3_cycle_trap.txt Method: bfs
+Goal: 4 Nodes: 4
+Path: 1 2 3 4
+ 
+---- test4_multiplegoals.txt | bfs ---- 
+Filename: cases\test4_multiplegoals.txt Method: bfs
+Goal: 4 Nodes: 9
+Path: 2 1 4
+ 
+---- test5_start_equal_goal.txt | bfs ---- 
+Filename: cases\test5_start_equal_goal.txt Method: bfs
+Goal: 3 Nodes: 1
+Path: 3
+ 
+---- test6_parser_stress.txt | bfs ---- 
+Filename: cases\test6_parser_stress.txt Method: bfs
+Goal: 3 Nodes: 3
+Path: 1 2 3
+ 
+---- test7_no_solution.txt | bfs ---- 
+cases\test7_no_solution.txt bfs
+No solution found
+ 
+---- test8_diff.txt | bfs ---- 
+Filename: cases\test8_diff.txt Method: bfs
+Goal: 13 Nodes: 12
+Path: 1 3 13
+ 
+---- test9_directed_graph_symmetric.txt | bfs ---- 
+cases\test9_directed_graph_symmetric.txt bfs
+No solution found
+ 
+---- test10_complex.txt | gbfs ---- 
+Filename: cases\test10_complex.txt Method: gbfs
+Goal: 11 Nodes: 8
+Path: 1 3 7 10 11
+ 
+---- test1_heuristic_misleading.txt | gbfs ---- 
+Filename: cases\test1_heuristic_misleading.txt Method: gbfs
+Goal: 10 Nodes: 8
+Path: 1 2 6 9 10
+ 
+---- test2_equal_cost.txt | gbfs ---- 
+Filename: cases\test2_equal_cost.txt Method: gbfs
+Goal: 4 Nodes: 4
+Path: 1 2 4
+ 
+---- test3_cycle_trap.txt | gbfs ---- 
+Filename: cases\test3_cycle_trap.txt Method: gbfs
+Goal: 4 Nodes: 4
+Path: 1 2 3 4
+ 
+---- test4_multiplegoals.txt | gbfs ---- 
+Filename: cases\test4_multiplegoals.txt Method: gbfs
+Goal: 5 Nodes: 6
+Path: 2 3 5
+ 
+---- test5_start_equal_goal.txt | gbfs ---- 
+Filename: cases\test5_start_equal_goal.txt Method: gbfs
+Goal: 3 Nodes: 1
+Path: 3
+ 
+---- test6_parser_stress.txt | gbfs ---- 
+Filename: cases\test6_parser_stress.txt Method: gbfs
+Goal: 3 Nodes: 3
+Path: 1 2 3
+ 
+---- test7_no_solution.txt | gbfs ---- 
+cases\test7_no_solution.txt gbfs
+No solution found
+ 
+---- test8_diff.txt | gbfs ---- 
+Filename: cases\test8_diff.txt Method: gbfs
+Goal: 13 Nodes: 4
+Path: 1 3 13
+ 
+---- test9_directed_graph_symmetric.txt | gbfs ---- 
+cases\test9_directed_graph_symmetric.txt gbfs
+No solution found
+ 
+---- test10_complex.txt | astar ---- 
+Filename: cases\test10_complex.txt Method: astar
+Goal: 11 Nodes: 9
+Path: 1 3 7 10 11
+ 
+---- test1_heuristic_misleading.txt | astar ---- 
+Filename: cases\test1_heuristic_misleading.txt Method: astar
+Goal: 10 Nodes: 10
+Path: 1 2 5 8 10
+ 
+---- test2_equal_cost.txt | astar ---- 
+Filename: cases\test2_equal_cost.txt Method: astar
+Goal: 4 Nodes: 5
+Path: 1 2 4
+ 
+---- test3_cycle_trap.txt | astar ---- 
+Filename: cases\test3_cycle_trap.txt Method: astar
+Goal: 4 Nodes: 5
+Path: 1 2 3 4
+ 
+---- test4_multiplegoals.txt | astar ---- 
+Filename: cases\test4_multiplegoals.txt Method: astar
+Goal: 5 Nodes: 9
+Path: 2 3 5
+ 
+---- test5_start_equal_goal.txt | astar ---- 
+Filename: cases\test5_start_equal_goal.txt Method: astar
+Goal: 3 Nodes: 1
+Path: 3
+ 
+---- test6_parser_stress.txt | astar ---- 
+Filename: cases\test6_parser_stress.txt Method: astar
+Goal: 3 Nodes: 3
+Path: 1 2 3
+ 
+---- test7_no_solution.txt | astar ---- 
+cases\test7_no_solution.txt astar
+No solution found
+ 
+---- test8_diff.txt | astar ---- 
+Filename: cases\test8_diff.txt Method: astar
+Goal: 13 Nodes: 4
+Path: 1 3 13
+ 
+---- test9_directed_graph_symmetric.txt | astar ---- 
+cases\test9_directed_graph_symmetric.txt astar
+No solution found
+ 
+---- test10_complex.txt | cus1 ---- 
+Filename: cases\test10_complex.txt Method: cus1
+Goal: 11 Nodes: 39
+Path: 1 2 5 9 11
+ 
+---- test1_heuristic_misleading.txt | cus1 ---- 
+Filename: cases\test1_heuristic_misleading.txt Method: cus1
+Goal: 10 Nodes: 27
+Path: 1 2 4 7 10
+ 
+---- test2_equal_cost.txt | cus1 ---- 
+Filename: cases\test2_equal_cost.txt Method: cus1
+Goal: 4 Nodes: 8
+Path: 1 2 4
+ 
+---- test3_cycle_trap.txt | cus1 ---- 
+Filename: cases\test3_cycle_trap.txt Method: cus1
+Goal: 4 Nodes: 10
+Path: 1 2 3 4
+ 
+---- test4_multiplegoals.txt | cus1 ---- 
+Filename: cases\test4_multiplegoals.txt Method: cus1
+Goal: 4 Nodes: 9
+Path: 2 1 4
+ 
+---- test5_start_equal_goal.txt | cus1 ---- 
+Filename: cases\test5_start_equal_goal.txt Method: cus1
+Goal: 3 Nodes: 1
+Path: 3
+ 
+---- test6_parser_stress.txt | cus1 ---- 
+Filename: cases\test6_parser_stress.txt Method: cus1
+Goal: 3 Nodes: 6
+Path: 1 2 3
+ 
+---- test7_no_solution.txt | cus1 ---- 
+cases\test7_no_solution.txt cus1
+No solution found
+ 
+---- test8_diff.txt | cus1 ---- 
+Filename: cases\test8_diff.txt Method: cus1
+Goal: 13 Nodes: 12
+Path: 1 3 13
+ 
+---- test9_directed_graph_symmetric.txt | cus1 ---- 
+cases\test9_directed_graph_symmetric.txt cus1
+No solution found
+ 
+---- test10_complex.txt | cus2 ---- 
+Filename: cases\test10_complex.txt Method: cus2
+Goal: 11 Nodes: 9
+Path: 1 3 6 9 11
+ 
+---- test1_heuristic_misleading.txt | cus2 ---- 
+Filename: cases\test1_heuristic_misleading.txt Method: cus2
+Goal: 10 Nodes: 8
+Path: 1 2 6 9 10
+ 
+---- test2_equal_cost.txt | cus2 ---- 
+Filename: cases\test2_equal_cost.txt Method: cus2
+Goal: 4 Nodes: 4
+Path: 1 2 4
+ 
+---- test3_cycle_trap.txt | cus2 ---- 
+Filename: cases\test3_cycle_trap.txt Method: cus2
+Goal: 4 Nodes: 4
+Path: 1 2 3 4
+ 
+---- test4_multiplegoals.txt | cus2 ---- 
+Filename: cases\test4_multiplegoals.txt Method: cus2
+Goal: 5 Nodes: 6
+Path: 2 3 5
+ 
+---- test5_start_equal_goal.txt | cus2 ---- 
+Filename: cases\test5_start_equal_goal.txt Method: cus2
+Goal: 3 Nodes: 1
+Path: 3
+ 
+---- test6_parser_stress.txt | cus2 ---- 
+Filename: cases\test6_parser_stress.txt Method: cus2
+Goal: 3 Nodes: 3
+Path: 1 2 3
+ 
+---- test7_no_solution.txt | cus2 ---- 
+cases\test7_no_solution.txt cus2
+No solution found
+ 
+---- test8_diff.txt | cus2 ---- 
+Filename: cases\test8_diff.txt Method: cus2
+Goal: 13 Nodes: 4
+Path: 1 3 13
+ 
+---- test9_directed_graph_symmetric.txt | cus2 ---- 
+cases\test9_directed_graph_symmetric.txt cus2
+No solution found
+ 
